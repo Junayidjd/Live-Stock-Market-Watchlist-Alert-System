@@ -48,19 +48,21 @@ This is a full-stack application that allows users to track stocks in real-time,
 
 
 3. Create a virtual environment:
+
+```bash
 python -m venv venv
 
 
-4. Activate the virtual environment:
+5. Activate the virtual environment:
 On Windows:
 venv\Scripts\activate
 
 
-5. Install dependencies:
+6. Install dependencies:
    pip install -r requirements.txt
 
 
-6. Create a .env file in the backend directory with the following variables:
+7. Create a .env file in the backend directory with the following variables:
    
    SECRET_KEY=your_secret_key
    
