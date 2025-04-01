@@ -61,15 +61,21 @@ venv\Scripts\activate
 
 
 6. Create a .env file in the backend directory with the following variables:
+   
    SECRET_KEY=your_secret_key
+   
 MONGO_URI=mongodb://localhost:27017/stockwatch
+
 JWT_SECRET_KEY=your_jwt_secret
+
 ALPHA_VANTAGE_KEY=your_alpha_vantage_api_key
+
 EMAIL_USER=your_email@gmail.com
+
 EMAIL_PASS=your_email_password
 
 
-7. Run the backend server:
+8. Run the backend server:
    python app.py
 
 
