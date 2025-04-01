@@ -138,21 +138,5 @@ WebSocket configuration
 
 
 
-## stock-watchlist/
-├── backend/               # Flask application
-│   ├── app.py            # Main application file
-│   ├── requirements.txt  # Python dependencies
-│   └── .env              # Environment variables
-│
-├── frontend/             # React application
-│   ├── src/
-│   │   ├── components/   # React components
-│   │   ├── pages/        # Page components
-│   │   ├── utils/        # Utility functions
-│   │   ├── App.jsx       # Main application component
-│   │   └── main.jsx      # Entry point
-│   ├── vite.config.js    # Vite configuration
-│   └── package.json      # Frontend dependencies
-│
-└── README.md             # This file
+
 
